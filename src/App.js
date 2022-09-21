@@ -4,6 +4,7 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 
 function App() {
+  document.title = "Country Information";
   return (
     <div className="App">
       <Header></Header>

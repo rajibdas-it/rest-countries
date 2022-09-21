@@ -11,7 +11,9 @@ const Countries = () => {
   console.log(countries);
   return (
     <div className="container mt-5 text-success">
-      <h2 className="fw-bold">Country Informations Using Rest Countries API</h2>
+      <h2 className="fw-bold">
+        Country information's Using Rest Countries API
+      </h2>
       <p>
         Information of{" "}
         <span className="fs-1 fw-bold text-danger">{countries.length}</span>{" "}
