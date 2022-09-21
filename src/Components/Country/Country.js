@@ -4,7 +4,7 @@ const Country = (props) => {
   const { name, capital, area, population, flags } = props.country;
   return (
     <div className="col sm-p-2">
-      <div className="card h-100 bg-dark text-success">
+      <div className="card h-100 bg-dark text-warning">
         <img
           src={flags ? flags.png : "no data found"}
           className="card-img-top w-100"
